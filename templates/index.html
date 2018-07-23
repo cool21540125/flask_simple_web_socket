@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Socket.IO chat</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+
+    <script src="{{ url_for('static', filename='jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='socket.io_1.3.6.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+</head>
+<body>
+    <ul id="chat"></ul>
+    <form action="">
+        <input type="text" id="txt" />
+        <input type="button" id="clk" value="送出">
+    </form>
+</body>
+</html>
